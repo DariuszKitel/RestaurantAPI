@@ -24,14 +24,9 @@ namespace RestaurantAPI.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete([FromRoute] int id)
         {
-            var isDeleted = _restaurantService.Delete(id);
+            _restaurantService.Delete(id);
 
-            if (isDeleted)
-            {
-                return NoContent();
-            }
-
-            return NotFound();
+            return NoContent();
         }
 
         [HttpPut("{id}")]
@@ -42,12 +37,8 @@ namespace RestaurantAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            var isUpdated = _restaurantService.UpdateRestaurant(updateRestaurant, id);
+            _restaurantService.UpdateRestaurant(updateRestaurant, id);
 
-            if (!isUpdated)
-            {
-                return NotFound();
-            }
             return Ok();
         }
 
@@ -83,10 +74,6 @@ namespace RestaurantAPI.Controllers
         {
             var restaurant = _restaurantService.GetById(id);
 
-            if (restaurant is null)
-            {
-                return NotFound();
-            }
             return Ok(restaurant);
         }
     }

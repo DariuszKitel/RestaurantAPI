@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eM/+82B8jl4fYoU8+9cEGsMGBucxX2l+ENMt6++xTsafFH5ZHaq1Pa0npvx+sdrrJlWtojd+o9xjUkWlq74Uzw==",
+  "dgSpecHash": "5N1Cl1iro0mtxjFy8Iiu68F84KMVT1x04MaT8a0BguZyOZoboJFLa3MM4YPQI+PmO4oGrXQ+4vpCYeDtmyPC3Q==",
   "success": true,
   "projectFilePath": "D:\\asp.net core\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,9 @@
     "C:\\Users\\Darek\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Darek\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Darek\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\Darek\\.nuget\\packages\\nlog\\4.7.6\\nlog.4.7.6.nupkg.sha512",
+    "C:\\Users\\Darek\\.nuget\\packages\\nlog.extensions.logging\\1.7.0\\nlog.extensions.logging.1.7.0.nupkg.sha512",
+    "C:\\Users\\Darek\\.nuget\\packages\\nlog.web.aspnetcore\\4.10.0\\nlog.web.aspnetcore.4.10.0.nupkg.sha512",
     "C:\\Users\\Darek\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Darek\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Darek\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
