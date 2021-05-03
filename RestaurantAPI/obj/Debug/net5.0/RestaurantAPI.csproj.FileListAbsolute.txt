@@ -59,3 +59,8 @@ D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\nlog.config
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\NLog.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\asp.net core\RestaurantAPI\RestaurantAPI\obj\Debug\net5.0\RestaurantAPI.MvcApplicationPartsAssemblyInfo.cs

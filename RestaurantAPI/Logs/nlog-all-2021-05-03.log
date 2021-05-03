@@ -1,0 +1,11 @@
+2021-05-03 14:34:40.7852||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-05-03 14:34:40.8297||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-05-03 14:34:40.8384||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-03 14:34:40.8384||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-03 14:34:40.8384||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 
+2021-05-03 14:37:06.9648||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-05-03 14:37:07.0033||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-05-03 14:37:07.0106||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-03 14:37:07.0106||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-03 14:37:07.0106||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 
+2021-05-03 14:37:47.3825||INFO|RestaurantAPI.Middleware.RequestTimeMiddleware|Request [GET] at /api/restaurant/ took 16774 ms 

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 namespace RestaurantAPI.Controllers
 {
     [Route("api/restaurant")]
+    [ApiController]
     public class RestaurantController : ControllerBase
     {
         private readonly IRestaurantService _restaurantService;
@@ -32,11 +33,7 @@ namespace RestaurantAPI.Controllers
         [HttpPut("{id}")]
         public ActionResult UpdateRestaurant([FromBody] UpdateRestaurantDto updateRestaurant, [FromRoute] int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
+           
             _restaurantService.UpdateRestaurant(updateRestaurant, id);
 
             return Ok();
@@ -45,11 +42,7 @@ namespace RestaurantAPI.Controllers
         [HttpPost]
         public ActionResult CreateRestaurant([FromBody] CreateRestaurantDto dto)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
+            
             var id = _restaurantService.Create(dto);
 
             return Created($"/api/restaurant/{id}", null);
