@@ -1,0 +1,5 @@
+2021-05-09 00:07:19.3092||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-05-09 00:07:19.3496||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-05-09 00:07:19.3592||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-09 00:07:19.3592||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-09 00:07:19.3592||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 
