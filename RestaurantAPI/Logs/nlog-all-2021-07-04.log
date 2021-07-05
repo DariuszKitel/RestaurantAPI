@@ -1,0 +1,22 @@
+2021-07-04 23:38:10.6085||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-07-04 23:38:10.6717||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-07-04 23:38:10.6717||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 23:38:10.6844||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 23:38:10.6844||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 
+2021-07-04 23:39:42.7084||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-07-04 23:39:42.7439||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-07-04 23:39:42.7439||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 23:39:42.7439||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 23:39:42.7439||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 
+2021-07-04 23:43:28.2849||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-07-04 23:43:28.3241||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-07-04 23:43:28.3241||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 23:43:28.3241||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 23:43:28.3365||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 
+2021-07-04 23:49:59.1592||INFO|RestaurantAPI.Middleware.RequestTimeMiddleware|Request [GET] at /api/restaurant/ took 70641 ms 
+2021-07-04 23:51:50.5318||INFO|RestaurantAPI.Middleware.RequestTimeMiddleware|Request [GET] at /api/restaurant/ took 94506 ms 
+2021-07-04 23:52:25.4954||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-07-04 23:52:25.5350||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2021-07-04 23:52:25.5393||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 23:52:25.5393||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 23:52:25.5393||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\asp.net core\RestaurantAPI\RestaurantAPI 

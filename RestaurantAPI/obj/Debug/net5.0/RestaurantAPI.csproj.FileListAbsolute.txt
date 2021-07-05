@@ -35,7 +35,6 @@ D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Microsoft.IdentityM
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
@@ -67,3 +66,4 @@ D:\asp.net core\RestaurantAPI\RestaurantAPI\obj\Debug\net5.0\RestaurantAPI.MvcAp
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\FluentValidation.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\asp.net core\RestaurantAPI\RestaurantAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

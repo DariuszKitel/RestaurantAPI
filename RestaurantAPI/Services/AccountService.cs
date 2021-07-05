@@ -14,28 +14,6 @@ using System.Threading.Tasks;
 
 namespace RestaurantAPI.Services
 {
-    public abstract class Test
-    {
-        public abstract int MyProperty { get; set; }
-
-        protected int[] liczby = {1,2,3,4};
-        
-        public Test()
-        {
-            
-        }
-        internal Test(int prop)
-        {
-            MyProperty = prop;
-        }
-        
-        public void Meth()
-        {
-
-        }
-        protected abstract int Goal();
-        internal abstract int Goal1(int param1, int par2);
-    }
     public class AccountService : IAccountService
     {
         private readonly RestaurantDbContext _dbContext;
