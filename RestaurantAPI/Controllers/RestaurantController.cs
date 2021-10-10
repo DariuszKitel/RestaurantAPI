@@ -8,6 +8,7 @@ using RestaurantAPI.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace RestaurantAPI.Controllers
@@ -27,7 +28,7 @@ namespace RestaurantAPI.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete([FromRoute] int id)
         {
-            _restaurantService.Delete(id);
+            _restaurantService.Delete(id, User);
 
             return NoContent();
         }
@@ -36,7 +37,7 @@ namespace RestaurantAPI.Controllers
         public ActionResult UpdateRestaurant([FromBody] UpdateRestaurantDto updateRestaurant, [FromRoute] int id)
         {
            
-            _restaurantService.UpdateRestaurant(updateRestaurant, id);
+            _restaurantService.UpdateRestaurant(updateRestaurant, id, User);
 
             return Ok();
         }
@@ -45,13 +46,14 @@ namespace RestaurantAPI.Controllers
         [Authorize(Roles = "Admin,Manager")]
         public ActionResult CreateRestaurant([FromBody] CreateRestaurantDto dto)
         {
-            
-            var id = _restaurantService.Create(dto);
+            var userId = int.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier).Value);
+            var id = _restaurantService.Create(dto, userId);
 
             return Created($"/api/restaurant/{id}", null);
         }
 
         [HttpGet]
+        [Authorize(Policy = "AtLeast20")] //autoryzacja odpowiadająca wartości claim zadeklaroanego w startup
         public ActionResult<IEnumerable<RestaurantDto>> GetAll()
         {
             var restaurantDtos = _restaurantService.GetAll();
