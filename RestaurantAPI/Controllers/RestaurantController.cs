@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using RestaurantAPI.Entities;
 using RestaurantAPI.Models;
 using RestaurantAPI.Services;
 using System.Collections.Generic;
@@ -48,9 +49,9 @@ namespace RestaurantAPI.Controllers
 
         [HttpGet]
         [Authorize(Policy = "AtLeast20")] //autoryzacja odpowiadająca wartości claim zadeklaroanego w startup
-        public ActionResult<IEnumerable<RestaurantDto>> GetAll([FromQuery] string searchPhrase)
+        public ActionResult<IEnumerable<RestaurantDto>> GetAll([FromQuery] RestaurantQuery query)
         {
-            var restaurantDtos = _restaurantService.GetAll(searchPhrase);
+            var restaurantDtos = _restaurantService.GetAll(query);
 
             //var restaurantDtos = restaurant.Select(r => new RestaurantDto()
             //{
