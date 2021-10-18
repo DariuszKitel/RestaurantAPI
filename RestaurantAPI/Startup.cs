@@ -80,11 +80,21 @@ namespace RestaurantAPI
             services.AddScoped<IUserContextService, UserContextService>();
             services.AddHttpContextAccessor();
             services.AddSwaggerGen();
+            services.AddCors(options =>
+                {
+                    options.AddPolicy("FronEndClient", builder =>
+                    builder.AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowAnyOrigin() //.WithOrigins("http://localhost:8080") dla konkretnej domeny
+                    );
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RestaurantSeeder seeder)
         {
+            app.UseStaticFiles();
+            app.UseCors("FronEndClient");
             seeder.Seed();
             if (env.IsDevelopment())
             {
